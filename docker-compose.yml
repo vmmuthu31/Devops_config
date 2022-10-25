@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+      vmmuthu31:
+            container_name: vmmuthu31
+            build: .
+            ports: ["4000:5000"]
+      
+
